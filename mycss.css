@@ -4,13 +4,14 @@
 }
 
 .typewriter{
+    font-size: 2rem;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation:
             typing 3.5s steps(40, end),
-            blink-caret .75s step-end infinite;
+            blink-caret 1s step-end infinite;
 }
 
 /* The typing effect */
@@ -31,3 +32,6 @@
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.icon-links a{
+    padding: 10px;
+}
